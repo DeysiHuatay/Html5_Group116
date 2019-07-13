@@ -1,0 +1,38 @@
+.texto{
+	background-color: red;
+	color: white;
+	font-family: arial;
+	/*padding:20px; /** espaciado de manera interna **/
+	/*padding-left: 10px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-right: 40px;*/
+	padding: 20px;
+
+}
+.parrafo2{
+	background-color: skyblue;
+	color: black;
+	font-family: arial;
+	margin:20px;
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-right: 60px;
+	margin-bottom: 80px;
+	padding: 30px;
+
+
+	/*
+	margin:10px 30px;
+	margin: top-bottom left-right;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:30px;
+	margin-right:30px;
+	
+	margin:10px 4px 20px 60px;
+
+	margin: top right bottom left;
+
+	*/
+}

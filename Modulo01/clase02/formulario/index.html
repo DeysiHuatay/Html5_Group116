@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<form action="gracias.html" method="POST"  enctype="multipart/form-data">
+		<label>Fecha Registro</label>
+		<input type="text" name="fecha" readonly value="13/07/2019">
+		<br>
+		<label>Nombre</label>
+		<input type="text" name="nombres" required placeholder="ingresa tu nombre aquí">
+		<br>
+		<label>Apellidos</label>
+		<input type="text" required name="apellidos">
+		<br>
+		<label>Contraseña</label>
+		<input type="password" name="password">
+		<br>
+		<label>Correo</label>
+		<input type="email" required name="correo">
+		<br>
+
+		<label>Cursos</label><br>
+		
+		<label>
+			<input type="checkbox" name="">
+			HTML
+		</label><br>
+		
+		<input type="checkbox" id="opcion2" name="">
+		<label for="opcion2">CSS</label><br>
+		
+		<input type="checkbox" name="">
+		<label>JS</label>
+		<br>	
+
+		<label>Turno</label><br>
+
+		<input type="radio" name="turno">	
+		<label>Mañana</label>
+		<br>
+
+		<input type="radio" name="turno">	
+		<label>Tarde</label>
+		<br>
+
+		<input type="radio" name="turno">
+		<label>Noche</label>
+		<br>
+
+		<label>Selecciona tu distrito</label><br>
+		<select>
+			<option value="0" selected disabled>Selecciona tu distrito</option>
+			<option value="3">San Juan de lurigancho</option>
+			<option value="1" disabled>Jesús María</option>
+			<option value="2" >Lince</option>
+		</select>
+		<br>
+		<label>Comentario</label><br>
+		<textarea placeholder="Ingresa tu comentario"></textarea>
+		<br>
+		<label>Selecciona Archivo</label>
+		<br>
+		<input type="file" name="">
+		<br>
+
+
+		<!--<input type="text" name="" placeholder="Nombres">-->
+		<input type="submit" name="btn-enviar" value="Guardar Datos">
+	</form>
+
+</body>
+</html>
