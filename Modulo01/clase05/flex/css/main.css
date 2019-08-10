@@ -1,0 +1,19 @@
+.contenedor{
+	width: 600px;
+	height: 600px;
+	background-color: tomato;
+}
+
+.item1{
+	
+	background-color: gold;
+}
+.item2{
+
+	background-color: skyblue;
+}
+
+.item3{
+
+	background-color: pink;
+}

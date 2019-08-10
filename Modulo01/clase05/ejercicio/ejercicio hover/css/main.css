@@ -5,20 +5,13 @@
 	}
 	.header-site{
 		background-color: black;
-
-
 	}
-	
 	.nav-site ul li{
 		display: inline-block;
 		vertical-align: top;
-	
 		color: white;
 		padding: 10px 20px;
-	
 	}
-
-
 	.nav-site ul li:hover{
 		background-color: red;
 	}
