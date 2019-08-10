@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+.container{
+	width: 1200px;
+	margin:0 auto;
+}
+.header-site{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: white;
+}
+.title-site{
+	
+	font-size: 27px;
+
+}
+.nav-site{
+
+}
+.nav-site ul{
+	display: flex;
+
+}
+.nav-site ul li{
+	padding: 20px;
+
+}
