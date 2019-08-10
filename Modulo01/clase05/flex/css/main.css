@@ -2,18 +2,31 @@
 	width: 600px;
 	height: 600px;
 	background-color: tomato;
+	margin:20px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly ; /* eje principal */
+	align-items: center; /* eje secundario */
+	flex-wrap: wrap;
+
 }
 
 .item1{
-	
+	width: 100px;
+	height: 100px;
 	background-color: gold;
+	/*align-self: flex-start; /* modificar en el eje secundario */
 }
 .item2{
-
+	width: 100px;
+	height: 100px;
 	background-color: skyblue;
+	/*align-self: center;*/
 }
 
 .item3{
-
+	width: 100px;
+	height: 100px;
 	background-color: pink;
+	/*align-self: flex-end;*/
 }
