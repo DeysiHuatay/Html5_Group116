@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 40px;
+}
+body{
+	font-family: arial;
+}
+.contenedor{
+	width: 970px;
+	margin:0 auto;
+	
+}
+h1{
+	font-size: 1rem;
+	/*1rem= fuente de root elemento (html)*/
+	/*font-size: 1em;*/
+	/*1em=fuente de tu padre*/
+}
+.img-full{
+	width: 100%;
+}
+p{
+	font-size: 0.5rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 970px){
+	.contenedor{
+		width: 100%;
+		
+	}
+	h1{
+		padding: 20px;
+	}
+	.contenido{
+		padding: 20px;
+	}
+	html{
+		/*font-size: 20px;*/
+	}
+}

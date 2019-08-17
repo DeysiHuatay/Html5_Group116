@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<header class="header-site">
+		<nav class="nav-site">
+			<span class="ico-menu">MENU</span>
+			<ul>
+				<li>Inicio</li>
+				<li>Nostros</li>
+				<li>Contácto</li>
+				<li>Servicios</li>
+				<li>Inicio</li>
+				<li>Nostros</li>
+			</ul>
+			
+		</nav>
+	</header>
+
+</body>
+</html>
+
+<style type="text/css">
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+}
+	.header-site{
+		width: 970px;
+		margin:0 auto;
+	}
+	.nav-site{
+		background-color: black;
+	}
+	.nav-site ul li{
+		display: inline-block;
+		vertical-align: top;
+		padding: 8px 20px;
+		color: white;
+	}
+	.ico-menu{
+		padding:8px 20px;
+		color: white;
+		display: inline-block;
+		display: none;
+	}
+
+	@media screen and (min-width: 0px) and (max-width: 700px){
+		.nav-site ul li{
+			display: block;
+		}
+		.nav-site{
+			text-align: right;
+		}
+		.nav-site ul{
+			display: none;
+		}
+		.ico-menu{
+			display: block;
+		}
+
+	}
+
+	@media screen and (min-width: 0px) and (max-width: 970px){
+		.header-site{
+			width: 100%;
+		}
+	}
+</style>
