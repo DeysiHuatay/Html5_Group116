@@ -1,0 +1,57 @@
+body{
+	font-family: arial;
+}
+.title{
+	color: red;
+
+}
+
+.title:before{
+	content: "Cap: ";
+}
+.title:after{
+	content: ";";
+}
+.title:first-letter{
+	font-size: 40px;
+	color: blue;
+}
+.title:last-letter{
+	color: orange;
+}
+
+.parrafos p:first-child{
+	color: green;
+}
+
+.parrafos p:last-child{
+	color: blue;
+}
+.parrafos p:nth-child(2){
+	color: tomato;
+}
+.parrafos p:nth-child(3){
+	color: gold;
+}
+
+.title2:before{
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+
+	border:10px solid transparent;
+	border-left: 10px solid black;
+	box-sizing: border-box;
+
+}
+
+.vineta:before{
+	content: "";
+	display: inline-block;
+	margin-right: 10px;
+	background-image: url(../img/check.png);
+	width: 15px;
+	height: 15px;
+	background-size: cover;
+}
