@@ -5,6 +5,16 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+
+	<header class="header">
+		<nav class="nav-site">
+			<ul class="lista-menu">
+				<li>Inicio</li>
+				<li>Nosotros</li>
+				<li>Contacto</li>
+			</ul>
+		</nav>
+	</header>
 	<div class="container">
 		<h2 class="title-center">Contenido</h2>
 		<p class="detalle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -136,6 +146,23 @@
 		</section>
 	</div>
 	<div class="link-up"></div>
+
+	<div class="social-bar"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 </body>
 </html>
 
+<script type="text/javascript">
+	$(window).scroll(function(){
+		let top=$(window).scrollTop();
+		
+		if(top>100){
+			$(".header").addClass("ver")
+		}
+		else{
+			$(".header").removeClass("ver")	
+		}
+	})
+</script>

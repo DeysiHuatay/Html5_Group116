@@ -1,0 +1,41 @@
+.title{
+	font-family: arial;
+	font-size: 25px;
+	background-color: skyblue;
+
+}
+
+.title:hover{
+	/*color:blue;*/
+	text-shadow: 2px 2px 2px gray;
+}
+.item{
+	font-family: arial;
+	width: 300px;
+	background-color: skyblue;
+	padding: 30px;
+	}
+	.item h2{
+		margin-top: 20px;
+		font-size: 18px;
+	}
+	.item p{
+		font-size: 15px;
+		margin-top: 10px;
+	}
+.item:hover{
+	background-color: tomato;
+}
+.item:hover p{
+	color: yellow;
+}
+.item:hover h2{
+	color: yellow;
+}
+/*
+.item h2:hover {
+	color: yellow;
+}
+.item p:hover{
+	color: yellow;
+}*/

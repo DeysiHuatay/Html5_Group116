@@ -1,0 +1,267 @@
+*{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+a, a:hover{
+color: inherit;
+text-decoration: none;
+
+}
+body{
+	font-family: arial;
+}
+.container{
+	width: 1200px;
+	margin:0 auto;
+}
+.fondo{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.header-site{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+background-color: rgba(0,0,0,0.8);
+	padding-left: 100px;
+	padding-right: 100px;
+	color: red;
+}
+.title-site{
+	
+	font-size: 27px;
+
+}
+.nav-site{
+
+}
+.nav-site ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+}
+.nav-site ul li{
+	padding: 20px;
+
+}
+.bloque1{
+	background-color: rgba(0,0,0,0.8);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 500px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.text1{
+
+	margin-bottom: 30px;
+	font-size: 40px;
+	color: white;
+	width: 800px;
+
+	text-align: center;
+}
+.separador{
+	width: 50px;
+	height: 5px;
+	background-color: orange;
+	display: inline-block;
+}
+.text2{
+	font-size: 16px;
+	line-height: 1.4;
+	margin-top: 20px;
+	color: white;
+	width: 800px;
+	text-align: center;
+}
+.btn-orange{
+	background-color: orange;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.bloque2{
+	height: 300px;
+	background-color: orange;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+
+.bloque2 .text1{
+
+	margin-bottom: 15px;
+	font-size: 30px;
+	color: white;
+	width: 800px;
+
+	text-align: center;
+}
+.separador-white{
+	width: 50px;
+	height: 5px;
+	background-color: white;
+}
+.bloque2 .text2{
+	font-size: 16px;
+	line-height: 1.4;
+	margin-top: 10px;
+	color: white;
+	width: 800px;
+	text-align: center;
+}
+
+.btn-gray{
+	background-color: #ececec;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: black;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.fondo-black{
+	background-color: black;
+}
+
+
+/*** section servicios **/
+.bloque-servicios{
+	
+	padding-top: 110px;
+	padding-bottom: 110px;
+
+}
+.title-section{
+	font-size: 30px;
+	margin-bottom: 30px;
+
+}
+.item-servicio{
+	width: 230px;
+
+	text-align: center;
+}
+.item-servicio h3{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.item-servicio p{
+	line-height: 1.3;
+}
+.over-title{
+	text-align: center;
+}
+.list-items{
+	margin-top:40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-webkit-box-pack: space-evenly;
+
+	-ms-flex-pack: space-evenly;
+
+	justify-content: space-evenly;
+}
+
+.list-images{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.list-images img{
+	width: 33.3%
+}
+/** end section servicios **/
+
+/** section contact **/
+.section-contact{
+	padding-top: 110px;
+	padding-bottom: 50px;
+}
+.detail-section{
+	width: 800px;
+	margin:30px auto 0px auto;
+}
+.detail-contact{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.info-correo{
+
+display: -webkit-box;
+
+display: -ms-flexbox;
+
+display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+margin:60px;
+}
+.info-telefono{
+	
+	margin:60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+/** end section contact **/
+
+.footer-site{
+	text-align: center;
+	background-color: #ececec;
+	color: black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
