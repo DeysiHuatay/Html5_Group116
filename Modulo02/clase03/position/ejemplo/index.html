@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="contenido">
+	<div class="box">
+		<span class="linea1"></span>
+		<span class="linea2"></span>
+		<span class="linea3"></span>
+		<span class="linea4"></span>
+	</div>
+</div>
+</body>
+</html>
+
+<style type="text/css">
+.contenido{
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+}
+	.box{
+		width: 200px;
+		height: 300px;
+	
+		position: relative;
+		overflow: hidden;
+
+	}
+
+	.linea1{
+		display: inline-block;
+		width: 5px;
+		height: 100%;
+		background-color: black;
+		position: absolute;
+		left: 0px;
+		top: 300px;
+		transition: all 0.2s linear;
+	}
+	.linea2{
+		display: inline-block;
+		width: 100%;
+		height: 5px;
+		background-color: black;
+		position: absolute;
+		left: -200px;
+		top: 0px;
+		transition: all 0.2s linear 0.2s;
+	}
+	.linea3{
+		display: inline-block;
+		width: 5px;
+		height: 100%;
+		background-color: black;
+		position: absolute;
+		right: 0px;
+		top: -300px;
+		transition: all 0.2s linear 0.4s;
+	}
+	.linea4{
+		display: inline-block;
+		width: 100%;
+		height: 5px;
+		background-color: black;
+		position: absolute;
+		right: -200px;
+		bottom: 0px;	
+		transition: all 0.2s linear 0.6s;
+	}
+
+	.box:hover .linea1{
+		top: 0px;
+	}
+	.box:hover .linea2{
+		left: 0px;
+	}
+	.box:hover .linea3{
+		top: 0px;
+	}
+	.box:hover .linea4{
+		right: 0px;
+	}
+</style>
