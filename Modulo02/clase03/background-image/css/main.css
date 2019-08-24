@@ -1,0 +1,43 @@
+.bloque1{
+	width: 600px;
+	height: 200px;
+	background-image: url("https://blog.luz.vc/wp-content/uploads/2017/10/logo-marca-textual-tipografica-subway.jpg");
+	/*background-repeat: no-repeat;
+	background-color: red;
+	background-size:cover;*/
+	/*background-position: X Y */
+
+	/*background-position: -150px -20px;*/
+	background-position: center;
+}
+
+.redes-icono{
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	background-image:url(../img/iconos.png);
+	transition:all 0.2s linear;
+}
+.icono{
+	background-position: 0px 0px;
+}
+.icono:hover{
+	background-position: 0px -64px;
+}
+
+.icono2{
+	
+	background-position: -65px 0px;
+}
+.icono2:hover{
+	
+	background-position: -65px -64px;
+}
+.icono3{
+	
+	background-position: -130px 0px;
+}
+.icono3:hover{
+	
+	background-position: -130px -64px;
+}

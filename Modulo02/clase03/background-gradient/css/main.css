@@ -1,0 +1,42 @@
+body{
+
+}
+section{
+	width: 100%;
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.section1{
+	
+	background: linear-gradient(transparent,black),
+				linear-gradient(transparent,black);
+}
+.section2{
+	background: linear-gradient(red,blue)
+}
+.section3{
+	background: linear-gradient(280deg,red,blue,blue);
+}
+
+.section4{
+	background: linear-gradient(to top, transparent ,transparent, black),
+	linear-gradient(to bottom, transparent ,transparent, black);
+}
+
+
+.section5{
+	background: radial-gradient(transparent,transparent,black),
+	 radial-gradient(transparent,transparent,black);
+	 background-color: red;
+}
+.section6{
+	background: rgba(210,255,82,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(210,255,82,1) 0%, rgba(17,20,15,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(17,20,15,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(210,255,82,1) 0%, rgba(17,20,15,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(210,255,82,1) 0%, rgba(17,20,15,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(210,255,82,1) 0%, rgba(17,20,15,1) 100%);
+background: radial-gradient(ellipse at center, rgba(210,255,82,1) 0%, rgba(17,20,15,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#11140f', GradientType=1 );
+}
